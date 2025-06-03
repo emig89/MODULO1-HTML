@@ -10,18 +10,20 @@
  <!-- PRIMERAS PRUEBAS -->
 <body> 
      <header>
-        <h1>Venta de Autos</h1> <!-- "h1" etiqueta dedicada a encabezados-->
+        <h1><em>Venta de Autos</em></h1> <!-- "h1" etiqueta dedicada a encabezados tener 1 por cada html que creo-->
     </header>
-    <main>
+    <main> <!-- Contenido principal -->
         <section>
-              <!-- TOYOT COROLLA -->
+              <!-- TOYOTA COROLLA -->
             <h2>AUTO 1</h2>
-            <p>Toyota Corolla 2020 - <strong><span style="color: red;">$20,000</span></strong></p>
+            <p>Toyota Corolla 2025 - <strong><span style="color: red;">$20,000</span></strong></p>
           
         </ol> 
             <img src="https://media.toyota.com.ar/2c0e4dcb-461a-4817-bb16-83beb0a2fae6.jpeg" weidht="350" height="350"><br>
             <h4>CARACTERÍSTICAS</h4>
-        <ol> <!--Lista ordenada-->
+            <p>El Toyota Corolla 2025 destaca por su equilibrio entre eficiencia, rendimiento y tecnología. Este modelo incorpora un motor de 2.0 litros Dynamic Force de cuatro cilindros, que ofrece una potencia aproximada de 169 caballos de fuerza, junto con una transmisión automática continuamente variable (CVT) que mejora la eficiencia del combustible. Además, está disponible en versiones híbridas que combinan un motor de gasolina con uno eléctrico, logrando un consumo combinado de hasta 4,5 litros por cada 100 km. En cuanto a seguridad, el Corolla 2025 viene equipado con el sistema Toyota Safety Sense 3.0, que incluye frenado automático de emergencia, control de crucero adaptativo, asistente de mantenimiento de carril y reconocimiento de señales de tránsito. También cuenta con una pantalla táctil de 8 pulgadas compatible con Apple CarPlay y Android Auto, y conectividad inalámbrica para una experiencia de conducción moderna y cómoda.</p>
+
+        <ol> <!-- <ol>Lista ordenada / si uso <ul> es para hacer lista sin orden--> 
             <li>Puertos USB </li> <!--etiqueta de los item de la lista-->
             <li>Manos libres </li>
             <li>Sensor de estacionemiento</li><br>
@@ -30,6 +32,7 @@
             <strong><h5>VIDEO TEST "click en la imagen para ver video"</h5></strong>
             <a target="_blank" href="https://www.youtube.com/watch?v=UWY4NmgfvuM"> <img src="imag/corolla.jpg" width="600"></a>    <br><br>
             <strong><h3 style="color: orange;">Video diferencia de modelos:</h3></strong>
+
             <!--VIDEOS-->
             <video src="imag/corolla.mp4" controls width="450"></video>
         </section>
@@ -37,22 +40,22 @@
             <section>
                 <!-- HONDA CIVIC -->
             <br><br><h2>AUTO 2</h2>
-            <p>Honda Civic 2019 -<strong><span style="color: red;"> $18,000 </span></strong> </p>
+            <p>Honda Civic Híbrido 2025 -<strong><span style="color: red;"> $18,000 </span></strong> </p>
             <img src="https://autos.honda.com.ar/uploads/modelos/30/images/sliders/img_web_civic_hybrid_disenoexterior.jpg" weidht="325" height="325"><br>
             
             <!--AUDIO
             <audio src="https://www.youtube.com/watch?v=UWY4NmgfvuM" controls></audio><br><br><br><br>-->
-
             <!--target target="_blank" abre el link en una nueva pestaña en blanco-->
             
              <h4>CARACTERÍSTICAS</h4>
+             <p>El Honda Civic Híbrido 2025 refleja un diseño orientado a la eficiencia y la tecnología avanzada. Este modelo combina un motor de gasolina de 2.0 litros de ciclo Atkinson con dos motores eléctricos, ofreciendo una potencia total de aproximadamente 204 caballos de fuerza, lo que permite un rendimiento ágil y una respuesta suave en carretera. Gracias a su sistema híbrido e:HEV, logra un consumo de combustible altamente eficiente, con promedios cercanos a los 4,0 litros por cada 100 km, dependiendo de las condiciones de conducción. En materia de seguridad, el Civic Híbrido 2025 incorpora el paquete Honda Sensing, que incluye frenado automático con detección de peatones, control de crucero adaptativo, mantenimiento de carril y asistencia en tráfico denso. A nivel tecnológico, cuenta con una pantalla táctil de hasta 9 pulgadas, compatibilidad inalámbrica con Apple CarPlay y Android Auto, además de una cabina diseñada para ofrecer confort y funcionalidad tanto al conductor como a los pasajeros.</p>
+
            <ol> <!--Lista ordenada, <ul> lista desordenada no es numerada-->
             <li>Puertos USB </li> <!--etiqueta de los item de la lista-->
             <li>Manos libres </li>
             <li>Espejo retovisor anti encandilamiento</li>
         </ol> <br>
         <a target="_blank" href="https://autos.honda.com.ar/modelos/civic-advanced-hybrid">Ir a la web oficial HONDA</a><br><br>
-
                
         <strong><h5>VIDEO TEST "click en la imagen para ver video"</h5></strong>
             <a target="_blank" href="https://www.youtube.com/watch?v=oLI1IdfEgAY"> <img src="imag/civic.jpg" width="700"></a> <br><br>
@@ -75,20 +78,32 @@
 
     <!-- Tablas / Para organizarnos o para armar emails -->
 
+    <thead> <!-- Encabezado de tabla-->
+    Listado
+    </thead>
     <table> <!-- Contenedoras de la tabla-->
         <tr>
-            <th>Nombre</th>
+            <!-- <th></th>  Los encabezados-->
+            <th>Nombre</th> 
             <th>Ciudad</th>
             <th>Edad</th>
         </tr>
+
         <tr> <!-- Definee una fila-->
-             <!-- <th></th>  Los encabezados-->
             <td>Emiliano</td> <!-- Las celdas -->
             <td>Buenos Aires</td>
             <td>34</td>  
+    </tr>
+            <td>Lucas</td> <!-- Las celdas -->
+            <td>Buenos Aires</td>
+            <td>30</td>
         </tr>
-       
         
+        <tr>
+            <td>Diego</td> <!-- Las celdas -->
+            <td>Punta alta</td>
+            <td>48</td>
+        </tr>  
     </table> 
 
 </body>
