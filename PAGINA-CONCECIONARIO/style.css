@@ -13,34 +13,66 @@ p {
 h1 {
   text-align: center; /* sirve para alinear 
 }
+text-transform: uppercase (siempre estan en may) y capitalize (primera en may)
 */
+
+/* Reset de CSS 
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}*/
 
 body {
   font-family: Arial, Helvetica, sans-serif;
   background-color: black;
   color: white;
   text-align: center;
+  }
+
+  h2{
+    font-family: "Alumni Sans SC", sans-serif;
+    font-size: 40px;
+
+  }
+
+  /* titulo caracteristicas */
+h4 {
+  text-decoration: underline;
+  font-size: 22px;
 }
 
+
+  .cont{
+    text-align: justify;
+    margin: 45px;
+    line-height: 1.5;
+    font-size: 1.5em; /* Relativo al tamaño de fuente del elemento padre ! REM es relativo al tamaño de la fuente del elemento raíz */
+  }
+
 ol {
-  text-align: left;
+  text-align: justify;
+  font-size: 20px;
+  line-height: 1.7;
+  margin: 20px;
 }
 
 .mail {
   text-align: justify;
   color: red;
-  margin-left: 10px;
+  margin-left: 10x;
 }
 
-p.auto {
+/* titulos de los autos */
+.auto {
+  font-size: 23px;
+  margin: 55px;
   text-align: left;
-  margin-left: 15px;
 }
 
 .test {
+  font-family: "Alumni Sans SC", sans-serif;
   text-align: center;
+  font-size: 30px;
 }
 
-h4 {
-  text-decoration: underline;
-}
