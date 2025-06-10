@@ -5,35 +5,30 @@
     <!--define codificación de caracteres-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <section id="volver">
-      <title>Venta de Autos</title>
+      <title >AUTOCAR-Concesionarios</title>
       <!--define el título de la pestaña-->
     </section>
 
     <!-- CSS -->
     <link rel="stylesheet" href="style.css" />
 
-    <!-- FUENTES-->
-     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Alumni+Sans+SC:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-
-
   </head>
   <!-- PRIMERAS PRUEBAS -->
   <body>
     <header>
-      <h1><em>Venta de Autos</em></h1>
+      <h1>Venta de Autos</h1>
       <!-- "h1" etiqueta dedicada a encabezados tener 1 por cada html que creo-->
     </header>
 
     <main>
       <!-- Contenido principal -->
+
       <section>
         <!-- TOYOTA COROLLA -->
-        <h2>PRIMER AUTO</h2>
-        <p class="auto"> Toyota Corolla 2025 - <strong><span style="color: red">$20,000 </span> </strong> </p>
+        <h2 class="auto">Toyota Corolla 2025 - <strong><span style="color: red">a partir de $32.121.000 </span></h2>
+        
 
-        <img src="https://media.toyota.com.ar/2c0e4dcb-461a-4817-bb16-83beb0a2fae6.jpeg" weidht="350" height="350"/>
+        <img src="imag/corolla1.jpeg" weidht="550" height="550"/>
         <br/><br/>
 
         <h4>CARACTERÍSTICAS</h4>
@@ -53,7 +48,34 @@
           Apple CarPlay y Android Auto, y conectividad inalámbrica para una
           experiencia de conducción moderna y cómoda.
         </p>
+        
+        <thead style="font-size: 100px;"> <!-- Encabezado de tabla-->
+          VERSIONES
+        </thead>
+    <table class="tabla"> <!-- Contenedoras de la tabla-->
+        <tr>
+            <!-- <th></th>  Los encabezados-->
+            <th>Combustible</th> 
+            <th>Híbrido</th>
+            <th>Deportivo</th>
+        </tr>
 
+        <tr> <!-- Definee una fila-->
+            <td>Emiliano</td> <!-- Las celdas -->
+            <td>Buenos Aires</td>
+            <td>34</td>  
+    </tr>
+            <td>Lucas</td> <!-- Las celdas -->
+            <td>Buenos Aires</td>
+            <td>30</td>
+        </tr>
+        
+        <tr>
+            <td>Diego</td> <!-- Las celdas -->
+            <td>Punta alta</td>
+            <td>48</td>
+        </tr>  
+    </table> 
         <ol>
           <!-- <ol>Lista ordenada / si uso <ul> es para hacer lista sin orden-->
           <li>Puertos USB</li>
@@ -63,33 +85,28 @@
         </ol>
         <br/>
 
-        <a target="_blank" href="https://www.toyota.com.ar/modelos/corolla"> Ir a la web oficial de TOYOTA </a>
+        <a class="webs" target="_blank" href="https://www.toyota.com.ar/modelos/corolla"> Ir a la web oficial de TOYOTA </a>
         <br/><br/>
 
         <strong><h5 class="test"> VIDEO TEST "click en la imagen para ver video" </h5></strong>
 
-        <a target="_blank" href="https://www.youtube.com/watch?v=UWY4NmgfvuM"> <img src="imag/corolla.jpg" width="600"/></a>
+        <a target="_blank" href="https://www.youtube.com/watch?v=UWY4NmgfvuM"> <img src="imag/corolla.jpg" width="800" height="400"/></a>
         <br/><br/>
 
-        <strong><h5 class="test" style="color: whitesmoke">Referencia modelo XCI:</h5></strong>
-
         <!--VIDEOS-->
+        <strong><h5 style="color: black; font-family: Arial, Helvetica, sans-serif; font-size: 30px;">Referencia modelo XCI:</h5></strong>
         <video src="imag/corolla.mp4" controls width="400"></video>
       </section>
 
       <section>
         <!-- HONDA CIVIC -->
         <br/>
-        <h2>SEGUNDO AUTO</h2>
-        <p class="auto"> Honda Civic Híbrido 2025 -<strong><span style="color: red"> $18,000 </span></strong></p>
-        <img src="https://autos.honda.com.ar/uploads/modelos/30/images/sliders/img_web_civic_hybrid_disenoexterior.jpg" weidht="325" height="325"/>
+        <h2 class="auto">Honda Civic Híbrido 2025 -<strong><span style="color: red"> $32,000 </span></strong></h2>
+        
+        <img src="https://autos.honda.com.ar/uploads/modelos/30/images/sliders/img_web_civic_hybrid_disenoexterior.jpg" weidht="400" height="400"/>
           <br/>
 
-        <!--AUDIO
-            <audio src="https://www.youtube.com/watch?v=UWY4NmgfvuM" controls></audio><br><br><br><br>-->
-        <!--target target="_blank" abre el link en una nueva pestaña en blanco-->
-
-        <h4>CARACTERÍSTICAS</h4>
+         <h4>CARACTERÍSTICAS</h4>
         <p class="cont"> El Honda Civic Híbrido 2025 refleja un diseño orientado a la
           eficiencia y la tecnología avanzada. Este modelo combina un motor de
           gasolina de 2.0 litros de ciclo Atkinson con dos motores eléctricos,
@@ -115,7 +132,8 @@
           <li>Espejo retovisor anti encandilamiento</li>
         </ol>
         <br/>
-        <a target="_blank" href="https://autos.honda.com.ar/modelos/civic-advanced-hybrid"
+
+        <a class="webs" target="_blank" href="https://autos.honda.com.ar/modelos/civic-advanced-hybrid"
           >Ir a la web oficial HONDA</a
         ><br /><br />
 
@@ -126,18 +144,28 @@
       </section>
     </main>
 
-    <!--Enlace interno / el id se crea con el simbolo # del nombre de la sección-->
-    <a href="#volver">VOLVER AL INICIO</a>
-
-    <!-- <section id="volver">
-        <p>Opiniones de atención al cliente</p>
-      </section> -->
-
     <footer>
-      <p class="mail">CONTACTO: info@ventadeautos.com</p>
+      <p style="font-family:Arial, Helvetica, sans-serif; font-size: 22px; ;">CONTACTO: info@autocar.com</p>
     </footer>
+
+    <!--Enlace interno / el id se crea con el simbolo # del nombre de la sección-->
+    <a href="#volver">VOLVER AL INICIO</a><br><br>
+
     <!--Enlace relativo-->
-    <strong><a href="portada.html">VOLVER A PORTADA PRINCIPAL</a></strong
-    ><br /><br />
+    <strong><a href="portada.html">VOLVER A PORTADA PRINCIPAL</a></strong>
   </body>
 </html>
+
+
+    <!-- FUENTES EXTERNAS
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alumni+Sans+SC:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet"> -->
+
+ <!-- <section id="volver">
+        <p>Opiniones de atención al cliente</p>
+      </section> -->
+      
+       <!--AUDIO
+            <audio src="https://www.youtube.com/watch?v=UWY4NmgfvuM" controls></audio><br><br><br><br>-->
+        <!--target target="_blank" abre el link en una nueva pestaña en blanco-->
